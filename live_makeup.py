@@ -4,7 +4,7 @@ from DigitalMakeup import Makeup
 
 cap = cv2.VideoCapture(0)
 MAKEUP_OBJ = Makeup()
-my_filter = {"makeup": False, "chin": False, "bow_tie": True}
+my_filter = {"makeup": False, "chin": True, "bow_tie": False}
 
 while True:
     ret, frame = cap.read()
